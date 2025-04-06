@@ -25,7 +25,7 @@ isOpen: boolean})  => {
                         
                       />
                       <button aria-label={"close preview"} className={"close"} onClick={() => {props.setIsOpen(false)}}>
-                      <img src={"./lib/assets/gallery/x-symbol-svgrepo-com.svg"} 
+                      <img src={"./assets/images//x-symbol-svgrepo-com.svg"} 
                       className={"close-img"}
                        onClick={() => {props.setIsOpen(false)}}
                        />
