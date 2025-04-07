@@ -118,8 +118,15 @@ h2{
   }
 }
 
+@media screen and (max-width: 900px) {
 
-
-.read-the-docs {
-  color: #888;
+.logo {
+  height: 3em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
+}
+
+
+

@@ -54,13 +54,13 @@ function App() {
               />
               <img
                 src="/assets/images/React-icon.svg.png"
-                alt="Postgresql logo"
+                alt="React logo"
                 className="logo"
               />
               <img
                 src="/assets/images/Typescript_logo_2020.svg.png"
-                alt="Postgresql logo"
-                className="logo"
+                alt="typescript logo"
+                className={"logo logo-spin"}
               />
             </div>
           </div>
