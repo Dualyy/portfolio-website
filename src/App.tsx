@@ -29,7 +29,7 @@ function App() {
             <span className={"gradient-background-text bigfont"}>Junior Front-End developer</span>
           </h2>
           <h2>
-            open for <span className="gradient-background-text new-opportunities"><a
+            open for <span id={"new-opportunities"} className="gradient-background-text new-opportunities"><a
              target='_blank'
               href="https://www.linkedin.com/in/lars-christian-frassle-792695264/">
                  new opportunities</a></span>

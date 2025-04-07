@@ -102,6 +102,14 @@ h2{
   font-size: 2rem;
 }
 
+#new-opportunities{
+  animation: test 5s infinite;
+}
+
+.new-opportunities{
+  background-color: transparent;
+  animation: test 5s infinite;
+}
 
 @keyframes logo-spin {
   from {
@@ -120,11 +128,67 @@ h2{
 
 @media screen and (max-width: 900px) {
 
+  .Fullpage-container{
+    height: 100vh;
+    align-content: center;
+  }
+
+  .hugemoji{
+    height: 15vw;
+  }
+
+  h1{
+    font-size: 4em;
+  
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  .bigfont{
+    font-size: 1em;
+  }
+
+  .text-photography{
+    font-size: 10pt;
+  }
+
 .logo {
-  height: 3em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+ display: none
+}
+
+h3{
+  font-size: 1em;
+
+}
+
+.new-opportunities {
+  background: linear-gradient(to left, #d16ba5, #ec6d92, #fd767b, #ff8662, #ff9b4a, #ff9242, #ff893b, #ff7f34, #ff4752, #ff007d, #da00b0, #8027e1);
+    background-size: 200% 200%;
+    animation: test 1.25s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes test {
+  0% {
+    background-position: 0% 10%;
+  }
+  50%{
+    background-position: 50% 20%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 50px;
+  font-size: 10pt;
 }
 }
 
