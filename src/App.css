@@ -131,6 +131,7 @@ h2{
   .Fullpage-container{
     height: 100vh;
     align-content: center;
+    margin-top: -20px;
   }
 
   .hugemoji{
@@ -139,7 +140,6 @@ h2{
 
   h1{
     font-size: 4em;
-  
   }
 
   h2{
