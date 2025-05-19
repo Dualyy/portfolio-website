@@ -26,7 +26,7 @@ function App() {
           <h2 className="introduction-text">
           <hr className="shorter-line" />
             I'm a <br />
-            <span className={"gradient-background-text bigfont"}>Junior Front-End developer</span>
+            <span className={"gradient-background-text bigfont"}>Junior software developer</span>
           </h2>
           <h2>
             open for <span id={"new-opportunities"} className="gradient-background-text new-opportunities"><a
