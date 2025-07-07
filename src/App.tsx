@@ -96,10 +96,10 @@ function App() {
         <div>
           <div className='links'>
           <a href="https://github.com/Dualyy">
-          <img className="link-icon"src="./public/assets/images/github-mark-white.png"/>
+          <img className="link-icon"src="./assets/images/github-mark-white.png"/>
           </a>
           <a href="https://www.linkedin.com/in/lars-christian-frassle-792695264/">
-          <img className="link-icon"src="./public/assets/images/LinkedIn_icon.svg"/>
+          <img className="link-icon"src="./assets/images/LinkedIn_icon.svg"/>
           </a>
           </div>
           <p>©{new Date().getFullYear()} Lars Frassle </p>
