@@ -94,7 +94,16 @@ function App() {
       </section>
       <footer>
         <div>
+          <div className='links'>
+          <a href="https://github.com/Dualyy">
+          <img className="link-icon"src="./src/assets/github-mark-white.png"/>
+          </a>
+          <a href="https://www.linkedin.com/in/lars-christian-frassle-792695264/">
+          <img className="link-icon"src="./src/assets/LinkedIn_icon.svg"/>
+          </a>
+          </div>
           <p>©{new Date().getFullYear()} Lars Frassle </p>
+          
         </div>
       </footer>
     </>

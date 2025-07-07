@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth; 
+  background-color: #1a1d20;
 }
 
 body {
@@ -13,6 +14,19 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.link-icon{
+  display: flex;
+  height: 30px;
+  justify-self: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
 }
 
 .logo {
@@ -111,14 +125,7 @@ h2{
   animation: test 5s infinite;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -163,6 +170,15 @@ h2{
     font-size: 10pt;
   }
 
+  .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+}
+
 .logo {
  display: none
 }
@@ -199,7 +215,8 @@ footer{
   height: 50px;
   font-size: 10pt;
 }
-}
+
+
 
 
 
